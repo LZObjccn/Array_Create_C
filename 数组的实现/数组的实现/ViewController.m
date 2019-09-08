@@ -11,12 +11,15 @@
 @implementation ViewController
 
 // 定义了一个复合数据类型，该数据类型的名字叫做struct Arr，该数据类型有三个成员，分别是pBase, len, cun, increment.
+
+// 
 struct Arr {
     int * pBase; // 存储的是数组第一个元素的地址
     int len; // 数组所能容纳的最大元素的个数
     int cnt; // 当前数组有效元素的个数
     int increment; // 自动增长因子
 };
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
